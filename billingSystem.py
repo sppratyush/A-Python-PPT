@@ -104,4 +104,4 @@ if __name__ == "__main__":
             print(f"Error: Product ID '{prod_id}' not found in inventory.")
 
     # 4. Generate the final receipt (with a 5% tax and 10% discount)
-    customer_bill.generate_receipt(tax_rate=0.05, discount_pct=0.10)
+    customer_bill.generate_receipt(tax_rate=0.05, discount_pct=0.10)    
